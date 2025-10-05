@@ -29,7 +29,7 @@ const Home = () => {
         className="flex flex-col items-center space-y-4"
       >
         <img
-          src="src/profile image2.jpg"
+          src="/profile image2.jpg"
           alt="profile"
           className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-purple-500 shadow-lg object-cover"
         />
