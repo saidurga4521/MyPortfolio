@@ -13,7 +13,7 @@ const Projects = () => {
       title: "Social Media App",
       description:
         "This project is a social media application that allows users to interact with each other by creating and sharing posts. Users can upload content, like posts, and share their thoughts through comments. Additionally, I implemented features for profile management, enabling users to update their profile information directly. Users can also edit their previously shared posts, making the platform more dynamic and user-friendly.",
-      image: "public/Screenshot 2025-08-10 185248.png",
+      image: "/Screenshot 2025-08-10 185248.png",
       video: "#",
       features: [
         "Comments",
@@ -30,7 +30,7 @@ const Projects = () => {
       title: "Payment Application",
       description:
         "Paysphere is a full-stack payment management system that integrates with Edviron’s payment gateway to process secure online transactions. It provides a smooth flow for initiating payments, validating responses, and tracking transaction statuses with a user-friendly dashboard.",
-      image: "public/Screenshot 2025-10-05 184109.png",
+      image: "/Screenshot 2025-10-05 184109.png",
       video: "#",
       features: [
         "Create Payment",

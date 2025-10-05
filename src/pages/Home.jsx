@@ -16,7 +16,7 @@ const Home = () => {
     linkedin: "https://www.linkedin.com/in/durga-prasad-kamireddi/",
     leetcode: "https://leetcode.com/u/saikamireddi/",
     email: "your.email@example.com",
-    resume: "public/DurgaPrasad2.pdf", // 👈 Add your resume file in the public folder
+    resume: "/DurgaPrasad2.pdf", // 👈 Add your resume file in the public folder
   });
 
   return (
