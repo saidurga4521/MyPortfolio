@@ -13,11 +13,11 @@ const Home = () => {
     linkedin: "https://www.linkedin.com/in/durga-prasad-kamireddi/",
     leetcode: "https://leetcode.com/u/saikamireddi/",
     email: "your.email@example.com",
-    resume: "/DurgaPrasad2.pdf",
+    resume: "/DurgaPrasad Kamireddi-Mern.pdf",
   });
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-start bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white px-6 md:px-16 lg:px-32 relative pt-14 md:pt-20 lg:pt-24">
+    <div className="min-h-screen flex flex-col items-center justify-start bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white px-6 md:px-16 lg:px-32 relative pt-20 md:pt-20 lg:pt-24">
       {/* Profile Section */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
