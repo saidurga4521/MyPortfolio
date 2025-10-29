@@ -8,12 +8,12 @@ const Home = () => {
   const [profile, setProfile] = useState({
     firstName: "DurgaPrasad",
     lastName: "Kamireddi",
-    title: "Full Stack Developer & Software Engineer",
+    title: "Full Stack Developer & Software Engineer & Freelancer",
     github: "https://github.com/saidurga4521",
     linkedin: "https://www.linkedin.com/in/durga-prasad-kamireddi/",
     leetcode: "https://leetcode.com/u/saikamireddi/",
     email: "your.email@example.com",
-    resume: "/DurgaPrasad Kamireddi-Mern.pdf",
+    resume: "/Durga_Prasad_mern.pdf",
   });
 
   return (

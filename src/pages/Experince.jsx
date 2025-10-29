@@ -4,6 +4,14 @@ import { motion } from "framer-motion";
 const Experince = () => {
   const experiences = [
     {
+      role: "Freelance Fullstack Developer",
+      company: "NomadSkills",
+      duration: "Sep 2025 - Present",
+      description:
+        "Collaborating with a small team to design and develop Nomad Skills, an e-learning platform. Built and launched the landing page, which is now live.Currently developing the student portal with features like authentication and dashboards.Using technologies such as React, Node.js, Express, MongoDB, and Tailwind CSS. Gaining hands-on experience in end-to-end development, API integration, and responsive UI design.",
+      skills: ["React", "NodeJS", "MongoDB", "ExpressJS"],
+    },
+    {
       role: "Data Science Intern",
       company: "Innomatics Research Labs",
       duration: "Feb 2023 - May 2023",
@@ -33,23 +41,26 @@ const Experince = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
-            className="bg-gray-800 rounded-xl p-6 shadow-lg flex flex-col md:flex-row justify-between gap-4 md:gap-8 mb-6"
+            className="bg-gray-800 rounded-xl p-6 shadow-lg flex flex-col md:flex-row gap-6 md:gap-8 mb-6"
           >
-            <div className="flex gap-4 items-start">
+            {/* Left Section - Role & Company */}
+            <div className="flex gap-4 items-start md:w-1/3">
               <span className="text-4xl">💼</span>
-              <div>
+              <div className="flex-1">
                 <h2 className="text-xl md:text-2xl font-bold">{exp.role}</h2>
-                <p className="text-gray-300">{exp.company}</p>
-                <p className="text-gray-400 text-sm">{exp.duration}</p>
+                <p className="text-gray-300 mt-1">{exp.company}</p>
+                <p className="text-gray-400 text-sm mt-1">{exp.duration}</p>
               </div>
             </div>
-            <div className="flex flex-col gap-2 md:w-2/3">
-              <p className="text-gray-300">{exp.description}</p>
+
+            {/* Right Section - Description & Skills */}
+            <div className="flex flex-col gap-4 md:w-2/3">
+              <p className="text-gray-300 leading-relaxed">{exp.description}</p>
               <div className="flex gap-2 flex-wrap">
                 {exp.skills.map((skill, idx) => (
                   <span
                     key={idx}
-                    className="px-2 py-1 bg-purple-600 rounded-lg text-sm md:text-base"
+                    className="px-3 py-1 bg-purple-600 rounded-lg text-sm"
                   >
                     {skill}
                   </span>
